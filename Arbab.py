@@ -510,8 +510,29 @@ def pilih_super():
 	print "  \033[1;91m«---•◈•---Developed By CyberHacker-Arbab--•◈•---»" #Dev:Arbab
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Arbab.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
-	print """
+	print"
 
+
+
+░█████╗░██████╗░██████╗░░█████╗░██████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+███████║██████╔╝██████╦╝███████║██████╦╝
+██╔══██║██╔══██╗██╔══██╗██╔══██║██╔══██╗
+██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
+╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
+ 
+         Checkpoint ID Open After 7 Days In Facebook Lite 
+•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
+: \033[1;91m ..CyberHacker-Arbab Creations.. \033[1;95m :
+•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
+                Facebook
+              \033[1;91mCYBER-HACKER-SHAHZADA-ARBAB"""
+	
+	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	menu()
+
+if __name__ == '__main__':
+	login()
 
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
 : \033[1;91m ..CyberHacker-Arbab Creations.. \033[1;95m :
