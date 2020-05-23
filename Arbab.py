@@ -533,15 +533,3 @@ def pilih_super():
 
 if __name__ == '__main__':
 	login()
-
-•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ..CyberHacker-Arbab Creations.. \033[1;95m :
-•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
-                Facebook
-              \033[1;91mCYBER-HACKER-SHAHZADA-ARBAB"""
-	
-	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	menu()
-
- if __name__ == '__main__':
-	login()
